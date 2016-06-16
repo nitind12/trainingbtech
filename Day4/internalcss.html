@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Practicing Internal CSS</title>
+		
+		<style type="text/css">
+			.main{
+				width:350px; 
+				background:#DDDDDD; 
+				padding:20px; 
+				font-family:Arial; 
+				font-size:30px; 
+				text-align:left;
+				border-radius: 12px;
+			}
+			.submain{
+				border: #808080 solid 1px; 
+				overflow:hidden; 
+				background: transparent;
+				font-size: 15px;
+			}
+			.content{
+				width: 100px; 
+				float:left
+			}
+			.txtBox{
+				float:left; 
+				width:240px; 
+				text-align: right
+			}
+			.mybuttonarea{
+				width: 340px; 
+				text-align: right; 
+				float: left;border: 
+				#0000ff solid 0px
+			}
+			.mybutton{
+				background: #59de4b;
+				width: 100px;
+				height: 35px;
+				color: #ffffff;
+				font-size: 21px;
+			}
+			.newline{
+				clear: both; 
+				padding: 10px
+			}
+			.newline_{
+				clear: both; 
+				padding: 5px
+			}
+		</style>
+	</head>
+	<body topmargin="70">
+		<center>
+			<div class="main">
+				Login
+			</div>
+			<div class="newline_"></div>
+			<div class="main submain">
+				<div class="content">
+					Username
+				</div>
+				<div class="txtBox">
+					<input type="text" name="txtUsr" />
+				</div>
+				<div class="newline"></div>
+				<div class="content">
+					Password
+				</div>
+				<div class="txtBox">
+					<input type="password" name="txtPwd" />
+				</div>
+				<div class="newline"></div>
+				<div class="mybuttonarea">
+					<input type="button" value="Sign in" class="mybutton" />
+				</div>
+			</div>
+		</center>
+	</body>
+</html>
