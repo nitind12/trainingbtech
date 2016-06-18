@@ -1,0 +1,5 @@
+1. How to increase the size & color of text?
+2. How to balance the columns in table?
+3. How to create a group of checkboxes in HTML form?
+4. What is the HTML code for marquee to move the text from bottom to top?
+5. What is <DIV> in HTML?

@@ -1,0 +1,43 @@
+body{
+	margin-top: 50px;
+}
+.row_{
+	width: 530px;
+	padding: 10px;
+	border: #009000 dotted 0px;
+	text-align: right;
+}
+input{
+	width: 500px;
+	padding: 10px;
+}
+textarea{
+	width: 500px;
+	padding: 10px;
+}
+input[type=button]{
+	width: 100px;
+	padding: 10px;
+}
+.head{
+	width: 550px;
+	text-align: left;
+	font-family: Arial;
+}
+.newline{
+	clear: both;
+	padding: 5px;
+}
+.label{
+	width: 500px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 18px;
+}
+.txtBox{
+	width: 522px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 18px;
+	border: #009000 dotted 0px;
+}
