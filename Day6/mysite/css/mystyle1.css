@@ -1,0 +1,40 @@
+body{
+	margin-top: 0px
+}
+.header{
+	width: 1000px;
+	height: 98px;
+	background-image: url("../images/header.png");
+	text-align: right;
+}
+.newline{
+	clear: both;
+}
+.banner{
+	width: 1000px;
+	height: 250px;
+	background: #f0f0f0;
+}
+.menubar{
+	width: 1000px;
+	height: auto;
+	overflow:hidden;
+}
+
+.menu{
+	padding: 8px 0px 0px 0px;
+	font-family: verdana;
+	color: #ffffff;
+	font-size: 15px;
+	float: left;
+	width: 80px;
+	height: 30px;
+	background-image: url("../images/menu.jpg");
+}
+
+a{
+	font-family: verdana;
+	color: #ffffff;
+	font-size: 15px;
+	text-decoration: none;
+}
