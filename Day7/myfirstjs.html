@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Practicing JavaScript</title>
+		<script type="text/javascript">
+			function callMe(){
+				alert("Hello World!");
+			}
+			
+			function welcomeUser(){
+				alert("Welcome " + document.frm_.txtName.value);
+			}
+			function addition_(){
+				var v1, v2, sum;
+				v1 = Number(document.frm_.txtVal1.value);
+				v2 = Number(document.frm_.txtVal2.value);
+				sum = v1 + v2;
+				alert("The addition is " + sum);
+			}
+		</script>
+	</head>
+	<body>
+		<form name="frm_" method="post">
+			<input type="text" name="txtVal1" />+<input type="text" name="txtVal2" /><br /><br />
+			<input type="button" value="Click" onclick="addition_();" />
+		</form>
+	</body>
+</html>
