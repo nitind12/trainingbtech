@@ -10,7 +10,7 @@ function validateForm(){
 		} else {
 			document.frmLogin.txtUsr.style.background = "#ffffff";
 			document.frmLogin.txtPwd.style.background = "#ffffff";
-			document.getElementById('msg_').innerHTML = "";
+			document.getElementById('content_').innerHTML = "THANKS";
 			//document.frmLogin.submit();
 		}
 }
