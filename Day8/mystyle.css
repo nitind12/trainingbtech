@@ -1,0 +1,26 @@
+.myfontsize{
+	font-size: 20px;
+	color: #ffffff;
+}
+.mycontent{
+	font-size: 15px;
+	color:#000000;
+}
+body{
+	background: #ffffff;
+}
+			
+table{
+	font-family: "Comic Sans MS"
+}
+
+input{
+	padding: 5px;
+	border-radius: 5px;
+	background: transparent;
+	border: #ff0000 solid 0px;
+	border-bottom:#000000 solid 1px;
+}
+.back{
+	font-size: 25px;
+}

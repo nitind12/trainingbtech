@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Practicing Login Box</title>
+		<link rel="stylesheet" href="mystyle.css" />
+		<script type="text/javascript" src="myscript.js"></script>
+	</head>
+	<body>
+		<table border="0" width="100%" height="500">
+			<tr>
+				<td align="center">
+					<table border="0" width="300" height="400">
+						<tr height="60">
+							<td valign="middle">
+								<table border="0" bgcolor="#808080" bordercolor="#C0C0C0" cellpadding="20" cellspacing="0" width="100%">
+								<tr>
+									<td class="myfontsize">
+										<font face="Arial">
+											Login
+										</font>
+									</td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<form name="frmLogin" method="post" action="submit.html">
+									<table border="1" bordercolor="#C0C0C0" cellpadding="20" cellspacing="0" width="100%">
+										<tr>
+											<td>
+												<table border="0" width="300" height="200">
+													<tr>
+														<td class="mycontent">Username</td>
+														<td align="right"><input type="text" name="txtUsr" /></td>
+													</tr>
+													<tr>
+														<td class="mycontent">Password</td>
+														<td align="right"><input type="password" name="txtPwd" /></td>
+													</tr>
+													<tr>
+														<td colspan="2">
+																<input type="button" value="Sign in" onclick="validateForm();" />
+														</td>
+													</tr>
+													<tr>
+														<td colspan="2" id="msg_" style="color: #ff0000"></td>
+													</tr>
+													
+												</table>
+											</td>
+										<tr>
+									</table>
+								</form>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
