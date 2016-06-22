@@ -1,0 +1,30 @@
+body{
+	font-family: Verdana;
+	font-size: 20px;
+	margin-top: 40px;
+}
+p{
+	float: left;
+	padding: 1px;
+}
+.newline{
+	clear: both;
+	padding: 1px;
+}
+input{
+	font-size: 20px;
+}
+.box{
+	width: 409px;
+	border: #909090 dotted 1px;
+	overflow: hidden;
+	padding: 10px;
+}
+.shade{
+	padding: 5px;
+	text-align: left;
+	float: left;
+	width: 400px;
+	color: #ffffff;
+	background: #000090;
+}
